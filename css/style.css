@@ -253,7 +253,7 @@ body {
     height: 100px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
 
     .sidebar {
         top: 59px;
@@ -359,15 +359,13 @@ body {
     }    
 }
 
-@media screen and (max-width: 545px) {
+@media screen and (max-width: 500px) {
     .partner .img .jki {
-        height: 100px;
-        padding-left: 40px;
+        text-align: center;
     }
     
     .partner .img .ads {
-        height: 100px;
-        padding-left: 70px;
+        text-align: center;
     }
     
     .partner .img .vip {
@@ -380,22 +378,18 @@ body {
     }
     
     .partner .img .konsep {
-        height: 100px;
-        padding-left: 70px;
+        text-align: center;
     }
     
     .partner .img .politeknik {
-        height: 100px;
-        padding-left: 1px;
+        text-align: center;
     }
     
     .partner .img .umc {
-        height: 100px;
-        padding-left: 20px;
+        text-align: center;;
     }
     
     .partner .img .tegar {
-        height: 100px;
-        padding-left: 30px;
+        text-align: center;
     }
 }
