@@ -34,6 +34,32 @@
     position: absolute;
 }
 
+@media (min-width: 768px) {
+    .masthead {
+        min-height: 80vh;
+    }
+
+    .f1 {
+        font-size: 25px;
+    }
+
+    .f2 {
+        font-size: 40px;
+        color: white;
+        font-family: 'Bitter', serif;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .f3 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        font-family: 'Bitter', serif;
+    }    
+}
+
 @media (max-width: 768px) {
     .masthead {
         min-height: 80vh;
@@ -59,6 +85,7 @@
         font-family: 'Bitter', serif;
     }    
 }
+
 
 @media (max-width: 550px) {
     .masthead {
